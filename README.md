@@ -1,17 +1,17 @@
 # Chocolate Problem – Tiling 2×N Corridor
 
 ## Author
-Nikhil Kumar Jha
-Roll: 2305716
-College: Kalinga Institue of Industrial Technology(KIIT), Bhubaneswar
+-Nikhil Kumar Jha
+-Roll: 2305716
+-College: Kalinga Institue of Industrial Technology(KIIT), Bhubaneswar
 
-I analyzed the tiling patterns for small values of N and derived a recurrence:
+-I analyzed the tiling patterns for small values of N and derived a recurrence:
 
-dp[n] = dp[n-1] + dp[n-2] + 2×dp[n-3]
+-dp[n] = dp[n-1] + dp[n-2] + 2×dp[n-3]
 
-Since N can be as large as 10^15, a simple DP approach is not efficient.
-So I converted the recurrence into matrix form and used fast exponentiation
-to compute the result in O(log N) time.
+-Since N can be as large as 10^15, a simple DP approach is not efficient.
+-So I converted the recurrence into matrix form and used fast exponentiation
+-to compute the result in O(log N) time.
 
 ## Problem Statement
 We are given a 2×N corridor and two types of tiles:
