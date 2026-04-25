@@ -4,7 +4,10 @@
 - Nikhil Kumar Jha
 - Roll: 2305716
 - College: Kalinga Institue of Industrial Technology(KIIT), Bhubaneswar
-- I analyzed the tiling patterns for small values of N and derived a recurrence:
+
+---
+
+I analyzed the tiling patterns for small values of N and derived a recurrence:
 
 - dp[n] = dp[n-1] + dp[n-2] + 2×dp[n-3]
 
