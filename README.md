@@ -1,4 +1,4 @@
-#  Chocolate Problem #1 – Tiling 2×N Corridor
+#  Chocolate Problem – Tiling 2×N Corridor
 
 ## Author
 - Nikhil Kumar Jha
