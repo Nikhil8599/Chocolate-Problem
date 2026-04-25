@@ -56,5 +56,5 @@ Since N can be very large, we use **Matrix Exponentiation**.
 
 - ---
 
-## 🚀 Code
+## Code
 See `solution.cpp`
